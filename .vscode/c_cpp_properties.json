@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/**",
+                "G:/Arduino/libraries/CAN_BUS_Shield/src",
+                "C:/Users/maxen/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.7/cores/arduino",
+                "C:/Users/maxen/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.7/variants/standard",
+                "C:/Users/maxen/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.7/libraries/SPI/src"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "G:/Arduino/libraries/CAN_BUS_Shield/src",
+                    "C:/Users/maxen/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.7/cores/arduino",
+                    "C:/Users/maxen/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.7/variants/standard",
+                    "C:/Users/maxen/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.7/libraries/SPI/src"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
+            },
+            "compilerPath": "C:/Users/maxen/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ],
+    "version": 4
+}

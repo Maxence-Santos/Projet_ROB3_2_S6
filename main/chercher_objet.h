@@ -1,0 +1,1 @@
+void chercher_objet();
