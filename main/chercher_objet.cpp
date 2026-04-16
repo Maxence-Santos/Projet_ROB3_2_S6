@@ -8,10 +8,10 @@
 Ultrasonic ultra(TRIG_PIN_D,ECHO_PIN_D);
 
 float revolNumber = 0;
+float dist;
 
 void chercher_objet() {
     Motor* KTMOTORS = init_moteurs();
-    float dist = ultra.read();
 
     while (dist > 10) {
         KTMOTORS[0].sendVelocityCommand(100,CAN);
