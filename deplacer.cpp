@@ -12,7 +12,7 @@ void deplacer(float distance, float angle, float vitesse_roues){
   t_debut = micros();
   t_ecoule = 0;
   while (t_ecoule < t){
-    KTMOTORS[0].sendVelocityCommand((long int)(-w_gauche), CAN);
+    KTMOTORS[0].sendVelocityCommand((long int)(w_gauche), CAN);
     KTMOTORS[1].sendVelocityCommand((long int)(w_droite), CAN);
     t_ecoule = t_debut - micros();
   }
@@ -25,7 +25,7 @@ void deplacer(float distance, float angle, float vitesse_roues){
   t_debut = micros();
   t_ecoule = 0;
   while (t_ecoule < t){
-    KTMOTORS[0].sendVelocityCommand((long int)(w_gauche), CAN);
+    KTMOTORS[0].sendVelocityCommand((long int)(-w_gauche), CAN);
     KTMOTORS[1].sendVelocityCommand((long int)(w_droite), CAN);
     t_ecoule = t_debut - micros();
   }
