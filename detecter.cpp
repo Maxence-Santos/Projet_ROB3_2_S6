@@ -21,7 +21,7 @@ bool objet_devant(float distance_cm){
 }
 
 bool objet_droite(float distance_cm){
-    if (ultrau.read() < distance_cm){
+    if (ultra2.read() < distance_cm){
         return true;
     }
     return false;
